@@ -1,13 +1,17 @@
 import React from 'react';
+import {
+     Beginning,
+     GradPhoto, 
+ } from './style'
 
 const Header = () => {
     return (
-        <div class="header">
-            <h1>Header Component</h1>
-            <p>Picture</p>
+        <Beginning>
+            <h1>Jason Moon</h1>
+            <GradPhoto src="./gradpic.png" alt=""/>
             <p>Welcome Message</p>
             <p>Links</p>
-        </div>
+        </Beginning>
     )
 }
 
