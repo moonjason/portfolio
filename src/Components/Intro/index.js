@@ -11,7 +11,11 @@ const Intro = () => {
                 </Column>
                 <Column2>
                     <h2>Contact Me</h2>
-                    <p>linkedin.com/in/moonjason96</p>
+                    <ul>
+                        <li><i class="fab fa-linkedin" style={{"font-size": "3rem"}}></i> in/jasonmoon96</li>
+                        <li><i class="fab fa-github-square" style={{"font-size": "3rem"}}></i> moonjason</li>
+                        <li><i class="fas fa-envelope" style={{"font-size": "3rem"}}></i> jasonmoonjm@gmail.com</li>
+                    </ul>
                 </Column2>
             </Row>
         </Container>
