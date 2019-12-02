@@ -4,6 +4,9 @@ export const Container = styled.div`
     background-color: antiquewhite;
     margin: 4% 16%;
     padding: 3%;
+    @media (max-width: 850px) {
+        margin: 4% 8%;
+    }
 `
 
 export const Row = styled.div`

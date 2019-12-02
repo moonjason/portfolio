@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Components/Header';
-import Body from './Components/Body';
+import Skills from './Components/Skills';
 import Intro from './Components/Intro';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div id="page">
       <Header />
       <Intro/>
-      <Body />
+      <Skills />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Column, Column2, Contact} from './style'
+import { Container, Row, Column, Column2} from './style'
 
 const Intro = () => {
     return (
