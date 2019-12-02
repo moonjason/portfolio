@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Column, Column2 } from './style'
+import { Container, Row, Column, Column2, Contact} from './style'
 
 const Intro = () => {
     return (
@@ -11,11 +11,12 @@ const Intro = () => {
                 </Column>
                 <Column2>
                     <h2>Contact Me</h2>
-                    <ul>
-                        <li><i class="fab fa-linkedin" style={{"font-size": "3rem"}}></i> in/jasonmoon96</li>
-                        <li><i class="fab fa-github-square" style={{"font-size": "3rem"}}></i> moonjason</li>
-                        <li><i class="fas fa-envelope" style={{"font-size": "3rem"}}></i> jasonmoonjm@gmail.com</li>
-                    </ul>
+                    <Contact>
+                        <br/>
+                        <li><a href="https://linkedin.com/in/jasonmoon96" target="_blank"><i class="fab fa-linkedin" style={{"font-size": "2.5rem"}}></i></a></li>
+                        <li><a href="https://github.com/moonjason" target="_blank"><i class="fab fa-github-square" style={{"font-size": "2.5rem"}}></i></a></li>
+                        <li><a href="mailto: jasonmoonjm@gmail.com"><i class="fas fa-envelope-square" style={{"font-size": "2.5rem"}}></i></a></li>
+                    </Contact>
                 </Column2>
             </Row>
         </Container>

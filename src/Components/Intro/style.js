@@ -30,3 +30,7 @@ export const Column2 = styled.div`
     flex: 1;
     align-items: center;
 `
+
+export const Contact = styled.ul`
+    list-style: none;
+`
