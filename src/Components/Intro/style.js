@@ -10,8 +10,10 @@ export const Row = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* padding: 4%; */
     width: 100%;
+    @media (max-width: 850px) {
+        flex-direction: column;
+    }
 `
 
 export const Column = styled.div`
@@ -19,7 +21,7 @@ export const Column = styled.div`
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    @media (max-width: 575px) {
+    @media (max-width: 850px) {
         align-items: center;
     }
 `
@@ -28,8 +30,12 @@ export const Column2 = styled.div`
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: .45;
-    align-items: center;
+    flex: .5;
+    text-align: right;
+    @media (max-width: 850px) {
+        align-items: center;
+        padding-top: 6%;
+    }
 `
 
 export const Contact = styled.ul`
