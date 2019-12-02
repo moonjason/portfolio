@@ -2,14 +2,15 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     background-color: antiquewhite;
-    margin: 4% 23%;
+    margin: 4% 16%;
+    padding: 3%;
 `
 
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 4%;
+    /* padding: 4%; */
     width: 100%;
 `
 
@@ -27,7 +28,7 @@ export const Column2 = styled.div`
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 1;
+    flex: .45;
     align-items: center;
 `
 

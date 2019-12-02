@@ -12,10 +12,9 @@ const Intro = () => {
                 <Column2>
                     <h2>Contact Me</h2>
                     <Contact>
-                        <br/>
-                        <li><a href="https://linkedin.com/in/jasonmoon96" target="_blank"><i class="fab fa-linkedin" style={{"font-size": "2.5rem"}}></i></a></li>
-                        <li><a href="https://github.com/moonjason" target="_blank"><i class="fab fa-github-square" style={{"font-size": "2.5rem"}}></i></a></li>
-                        <li><a href="mailto: jasonmoonjm@gmail.com"><i class="fas fa-envelope-square" style={{"font-size": "2.5rem"}}></i></a></li>
+                        <li><a href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{"fontSize": "2.5rem"}}></i></a></li>
+                        <li><a href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square" style={{"fontSize": "2.5rem"}}></i></a></li>
+                        <li><a href="mailto: jasonmoonjm@gmail.com"><i className="fas fa-envelope-square" style={{"fontSize": "2.5rem"}}></i></a></li>
                     </Contact>
                 </Column2>
             </Row>
