@@ -8,3 +8,9 @@ export const List = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
 `
+
+export const Icon = styled.img`
+    width: 10%;
+    height: 10%;
+    padding: 1.5% 3%;
+`
