@@ -15,3 +15,7 @@ export const Icon = styled.img`
     height: 10%;
     padding: 1.5% 3%;
 `
+
+export const SkillsText = styled.p`
+    text-align: center;
+`
