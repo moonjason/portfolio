@@ -1,13 +1,13 @@
 import React from 'react';
 import {
      Beginning,
-     GradPhoto,
+     Photo,
  } from './style'
 
 const Header = () => {
     return (
         <Beginning>
-            <GradPhoto src="./gradpic.png" alt=""/> 
+            <Photo src="./gradpic.png" alt=""/> 
             <h1>Jason Moon</h1>
             <h1>Full-Stack Web Developer</h1>
         </Beginning>

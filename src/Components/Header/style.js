@@ -9,7 +9,7 @@ export const Beginning = styled.div`
     text-align: center;
 `
 
-export const GradPhoto = styled.img`
+export const Photo = styled.img`
     width: 15%;
     height: 15%;
     border-radius: 4rem;
