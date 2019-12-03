@@ -7,6 +7,7 @@ export const List = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 10%;
 `
 
 export const Icon = styled.img`
