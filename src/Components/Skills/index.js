@@ -1,10 +1,15 @@
 import React from "react";
-import { Title, List, Icon, SkillsText } from "./style";
+import { Title, List, Icon, SkillsText, SkillsRow } from "./style";
 
 const Skills = () => {
   return (
     <>
       <Title>Skills</Title>
+      <div>
+        <SkillsRow>
+          
+        </SkillsRow>
+      </div>
       <List>
         <Icon src="./icons/js-logo.png" alt=""/>
         <Icon src="./icons/html-logo.png" alt=""/>

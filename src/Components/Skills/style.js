@@ -19,3 +19,11 @@ export const Icon = styled.img`
 export const SkillsText = styled.p`
     text-align: center;
 `
+
+export const SkillsRow = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    justify-content: center;
+`
