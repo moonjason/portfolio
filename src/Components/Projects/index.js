@@ -8,7 +8,7 @@ AOS.init();
 
 const style = {
     "width": "90%",
-    "max-width": "120rem",
+    "maxWidth": "120rem",
     "margin": "0 auto",
 }
 
