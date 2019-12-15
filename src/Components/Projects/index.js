@@ -9,7 +9,7 @@ AOS.init();
 const style = {
     "width": "90%",
     "maxWidth": "120rem",
-    "margin": "0 auto",
+    "margin": "3rem auto",
 }
 
 const Projects = () => {

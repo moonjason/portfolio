@@ -4,13 +4,14 @@ import {
   Icon, 
   SkillsRow,
   SkillsCol,
+  List
 } from "./style";
 
 const Skills = () => {
   return (
     <div>
       <Title>Skills</Title>
-      <div>
+      <List>
         <SkillsRow>
           <SkillsCol>
             <Icon src="./icons/js-logo.png" alt=""/>
@@ -28,8 +29,8 @@ const Skills = () => {
             <Icon src="./icons/nodejs-logo.png" alt=""/>
             <h3>Node</h3>
           </SkillsCol>
-          <SkillsCol style={{"marginLeft": '1.25rem'}}>
-            <i style={{'fontSize': '9rem'}} className="devicon-express-original-wordmark colored"></i>
+          <SkillsCol style={{"marginLeft": '1rem', 'padding': '1% 2%'}}>
+            <i style={{'fontSize': '7rem'}} className="devicon-express-original-wordmark colored"></i>
             <h3>Express</h3>
           </SkillsCol>
           <SkillsCol>
@@ -52,9 +53,13 @@ const Skills = () => {
             <Icon src="./icons/python-logo.png" alt=""/>
             <h3>Python</h3>
           </SkillsCol>
-          <SkillsCol style={{'marginLeft': '-1.5rem', 'marginRight': '-1.5rem'}}>
-            <Icon src="./icons/flask-logo.png" style={{"marginTop": ".5rem"}}alt=""/>
+          <SkillsCol style={{'marginLeft': '-1rem', 'marginRight': '-1rem'}}>
+            <Icon src="./icons/flask-logo.png" style={{}}alt=""/>
             <h3>Flask</h3>
+          </SkillsCol>
+          <SkillsCol>
+            <i style={{'fontSize': '7rem', 'padding': '1% 2%'}} className="devicon-bootstrap-plain colored"></i>
+            <h3>Bootstrap</h3>
           </SkillsCol>
           <SkillsCol>
             <Icon src="./icons/git-logo.png" alt=""/>
@@ -65,7 +70,7 @@ const Skills = () => {
             <h3>Github</h3>
           </SkillsCol>
         </SkillsRow>
-      </div>
+      </List>
     </div>
   );
 };
