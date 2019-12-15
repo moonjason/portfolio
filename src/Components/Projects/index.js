@@ -2,7 +2,8 @@ import React from 'react';
 import { 
     ProjectItem,
     ProjectImg,
-    ProjectDesc
+    ProjectDesc,
+    ProjectsHeader
  } from './style';
 
 import AOS from 'aos';
@@ -23,7 +24,7 @@ const hasMarginRight = {'marginRight': '6rem'}
 const Projects = () => {
     return (
         <div style={style}>
-            <h1 className="Heading">Projects</h1> 
+            <ProjectsHeader>Projects</ProjectsHeader> 
             <ProjectItem>
                 <ProjectImg style={hasMarginRight} data-aos="fade-right">
                     <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/gotnext-ss.png" alt=""/>

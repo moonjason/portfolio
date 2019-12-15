@@ -10,6 +10,12 @@ export const ProjectItem = styled.div`
     }
 `
 
+export const ProjectsHeader = styled.h1`
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+`
+
 export const ProjectImg = styled.div`
     max-width: 50rem;
     flex: 1;

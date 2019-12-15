@@ -7,6 +7,10 @@ export const Icon = styled.img`
     height: 7rem;
     padding: 1% 2%;
 `
+export const IconText = styled.p`
+
+`
+
 export const List = styled.div`
 `
 
@@ -16,6 +20,9 @@ export const SkillsRow = styled.div`
     padding: 0 10rem;
     text-align: center;
     justify-content: center;
+    @media (max-width: 850px){
+        padding: 0
+    }
 `
 
 export const SkillsCol = styled.div`
