@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Title = styled.h1`
     text-align: center;
+    padding-bottom: 1.5rem;
 `
 export const Icon = styled.img`
     height: 7rem;

@@ -8,11 +8,16 @@ import {
   IconText
 } from "./style";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const Skills = () => {
   return (
     <div>
       <Title>Skills</Title>
-      <List>
+      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
         <SkillsRow>
           <SkillsCol>
             <Icon src="./icons/js-logo.png" alt=""/>
