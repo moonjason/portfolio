@@ -13,10 +13,10 @@ export const ProjectItem = styled.div`
 export const ProjectImg = styled.div`
     max-width: 50rem;
     flex: 1;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     @media (max-width: 850px){
         width: 25rem;
-        margin: 0 0 0 6rem;
+        margin: 0 0 0 0 !important;
         order: 1;
     }
 `

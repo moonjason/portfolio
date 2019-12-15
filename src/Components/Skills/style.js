@@ -5,7 +5,6 @@ export const Title = styled.h1`
 `
 export const Icon = styled.img`
     height: 7rem;
-
     padding: 1% 2%;
 `
 export const List = styled.div`
@@ -21,7 +20,7 @@ export const SkillsRow = styled.div`
 
 export const SkillsCol = styled.div`
     margin: .2rem;
-    padding: 10px 15px;
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
 `
