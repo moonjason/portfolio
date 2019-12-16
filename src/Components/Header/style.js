@@ -15,11 +15,10 @@ const gradientBG = keyframes`
 export const Beginning = styled.div`
     padding: 3% 0;
     background-color: whitesmoke;
-    border-bottom: .3rem solid grey;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 6.5rem;
+    padding-bottom: 7.5rem;
     background: linear-gradient(-45deg, #243665, #77BBD1, #23a6d5, #23d5ab);
     animation: ${gradientBG} 15s ease infinite;
     background-size: 400% 400%;

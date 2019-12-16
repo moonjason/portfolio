@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return( 
-        <div>Footer</div>
+        <div>
+            <div>Link to GitHub Portfolio Repo</div>
+            <div>Back to the Top</div>
+        </div>
     )
 }
 
