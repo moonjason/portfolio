@@ -18,7 +18,7 @@ export const Title = styled.h1`
 export const AboutMeBody = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 `
 
 export const Row = styled.div`

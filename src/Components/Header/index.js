@@ -2,14 +2,22 @@ import React from 'react';
 import {
      Beginning,
      Photo,
+     MeContainer,
+     Name,
+     Title,
+     TitleContainer,
  } from './style'
 
 const Header = () => {
     return (
         <Beginning>
-            <Photo src="./gradpic.png" alt=""/> 
-            <h1>Jason Moon</h1>
-            <h1>Full-Stack Developer</h1>
+            <MeContainer>
+                <Photo src="./gradpic.png" alt=""/> 
+                <TitleContainer>
+                    <Name>Jason Moon</Name>
+                    <Title>Full-Stack Developer</Title>
+                </TitleContainer>
+            </MeContainer>
         </Beginning>
     )
 }
