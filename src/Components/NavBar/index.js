@@ -9,9 +9,9 @@ const NavBar = () => {
     return(
         <Bar>
             <LinkContainer>
-                <BarLink>About / Contact</BarLink>
-                <BarLink>Skills</BarLink>
-                <BarLink>Projects</BarLink>
+                <BarLink href="#intro">About/Contact</BarLink>
+                <BarLink href="#skills">Skills</BarLink>
+                <BarLink href="#projects">Projects</BarLink>
             </LinkContainer>
         </Bar>
     )

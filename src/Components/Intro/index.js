@@ -3,7 +3,7 @@ import Icon, { Container, Row, Column, Column2, Title, AboutMeBody } from './sty
 
 const Intro = () => {
     return (
-        <Container>
+        <Container id="intro">
             <Row>
                 <Column>
                     <Title>About Me</Title>

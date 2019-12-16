@@ -15,7 +15,7 @@ AOS.init();
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <Title>Skills</Title>
       <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="90">
         <SkillsRow>

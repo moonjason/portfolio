@@ -28,10 +28,10 @@ const hasMarginRight = {'marginRight': '6rem'}
 
 const Projects = () => {
     return (
-        <div style={style}>
+        <div style={style} id="projects">
             <ProjectsHeader>Projects</ProjectsHeader> 
             <ProjectItem>
-                <ProjectImg style={hasMarginRight} data-aos="fade-right">
+                <ProjectImg style={hasMarginRight} data-aos="fade-right" data-aos-delay="100" data-aos-offset="550">
                     <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/gotnext-ss.png" alt=""/>
                 </ProjectImg>
                 <ProjectDesc>
@@ -52,12 +52,12 @@ const Projects = () => {
                     <Links href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</Links>
                     <Links href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Deployed App</Links>
                 </ProjectDesc>
-                <ProjectImg>
+                <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="550">
                     <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/lgr-ss.png" alt=""/>
                 </ProjectImg>
             </ProjectItem>
             <ProjectItem>
-                <ProjectImg style={hasMarginRight} data-aos="fade-right">
+                <ProjectImg style={hasMarginRight} data-aos="fade-right" data-aos-delay="100" data-aos-offset="550">
                     <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/cashcount-ss.png" alt=""/>
                 </ProjectImg>
                 <ProjectDesc>
@@ -78,7 +78,7 @@ const Projects = () => {
                     <Links href="https://github.com/moonjason/fpsgame-callofduty-javascript" target="_blank">Github</Links>
                     <Links href="https://moonjason.github.io/fpsgame-callofduty-javascript/" target="_blank">Deployed App</Links>
                 </ProjectDesc>
-                <ProjectImg>
+                <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="550">
                     <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/cod-js-ss.png" alt=""/>
                 </ProjectImg>
             </ProjectItem>
