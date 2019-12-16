@@ -9,7 +9,7 @@ const Header = () => {
         <Beginning>
             <Photo src="./gradpic.png" alt=""/> 
             <h1>Jason Moon</h1>
-            <h1>Full-Stack Web Developer</h1>
+            <h1>Full-Stack Developer</h1>
         </Beginning>
     )
 }

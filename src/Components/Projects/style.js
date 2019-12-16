@@ -18,6 +18,9 @@ export const ProjectName = styled.h1`
 `
 
 export const ProjectsHeader = styled.h1`
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
     margin-top: 5rem;
     text-align: center;
     margin-bottom: 3.25rem;
@@ -26,11 +29,16 @@ export const ProjectsHeader = styled.h1`
 export const ProjectImg = styled.div`
     max-width: 50rem;
     flex: 1;
-    /* border: 1px solid black; */
+    padding: 2.2rem;
+    border: 1.5px solid black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .4);
     @media (max-width: 850px){
         width: 25rem;
         margin: 0 0 1.75rem 0 !important;
         order: 1;
+        padding: 0;
+        border: none;
+        box-shadow: none;
     }
 `
 

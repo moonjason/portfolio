@@ -3,13 +3,18 @@ import styled from 'styled-components'
 export const Title = styled.h1`
     text-align: center;
     padding-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
 `
 export const Icon = styled.img`
     height: 7rem;
     padding: 1% 2%;
 `
 export const IconText = styled.p`
-
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 `
 
 export const List = styled.div`
