@@ -13,6 +13,7 @@ export const ProjectItem = styled.div`
 
 export const ProjectName = styled.h1`
     font-size: 2.5rem;
+    padding-bottom: 1rem;
     border-bottom: .2rem solid black;
 `
 
@@ -50,7 +51,7 @@ export const ProjectBody = styled.p`
 export const TechnologiesUsed = styled.p`
     font-size: 1.1rem;
     font-weight: 600; 
-    padding-top: .7rem;    
+    padding-top: 1.5rem;    
 `
 
 export const Links = styled.a`
@@ -58,5 +59,5 @@ export const Links = styled.a`
 `
 
 export const Technologies = styled.p`
-    padding-bottom: .7rem;
+    padding-bottom: 2rem;
 `

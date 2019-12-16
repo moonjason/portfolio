@@ -36,7 +36,7 @@ const Projects = () => {
                 </ProjectImg>
                 <ProjectDesc>
                     <ProjectName>GotNext</ProjectName>
-                    <ProjectBody>GotNext is an app where basketball players can check if their favorite parks are empty or occupied. This app was inspired by my park-going experience when it's always uncertain to get a full 5 on 5 basketball game going. Users are able to create and view each others' profiles and search for parks based on the input location. Logged in users are able to check in and out of parks while being able to see a specific park's activity in real-time.</ProjectBody>
+                    <ProjectBody>GotNext is an app where basketball players can check if their favorite parks are empty or occupied. This app was inspired by my park-going experience when it's always uncertain to get a full 5 on 5 basketball game going. Users are able to create and view each others' profiles and search for parks based on a user input location. Logged in users are able to check in and out of parks while being able to see a specific park's activity in real-time.</ProjectBody>
                     <TechnologiesUsed>Technologies Used:</TechnologiesUsed>
                     <Technologies>React, Node, Express, Firebase (Auth, Cloud Firestore, Storage), Styled-Components, Yelp API, Mapbox API</Technologies>
                     <Links href="https://github.com/moonjason/GotNext" target="_blank">Github</Links>
