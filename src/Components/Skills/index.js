@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div>
       <Title>Skills</Title>
-      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
+      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="90">
         <SkillsRow>
           <SkillsCol>
             <Icon src="./icons/js-logo.png" alt=""/>
@@ -63,8 +63,8 @@ const Skills = () => {
             <Icon src="./icons/flask-logo.png" style={{}}alt=""/>
             <IconText>Flask</IconText>
           </SkillsCol>
-          <SkillsCol>
-            <i style={{'fontSize': '7rem', 'padding': '1% 2%'}} className="devicon-bootstrap-plain colored"></i>
+          <SkillsCol style={{ "marginLeft": '1rem', 'padding': '1% 2%'}}>
+            <i style={{'fontSize': '7rem'}} className="devicon-bootstrap-plain colored"></i>
             <IconText>Bootstrap</IconText>
           </SkillsCol>
           <SkillsCol>

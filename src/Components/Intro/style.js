@@ -9,6 +9,18 @@ export const Container = styled.div`
     }
 `
 
+export const Title = styled.h1`
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+`
+
+export const AboutMeBody = styled.p`
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+`
+
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
