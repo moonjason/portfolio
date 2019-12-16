@@ -9,7 +9,7 @@ const Intro = () => {
                     <Column>
                         <Title>About Me</Title>
                         <br/>
-                        <AboutMeBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor. Quam id leo in vitae turpis massa sed elementum. Consequat ac felis donec et odio pellentesque diam volutpat. Consectetur adipiscing elit ut aliquam purus sit. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Eget duis at tellus at. Faucibus purus in massa tempor nec feugiat. Purus in massa tempor nec feugiat nisl pretium. Commodo quis imperdiet massa tincidunt. Scelerisque in dictum non consectetur a erat nam at. Iaculis at erat pellentesque adipiscing commodo elit at.</AboutMeBody>
+                        <AboutMeBody>I am a full stack software engineer who specializes in the MERN stack. My passion for coding started in the summer of 2018 and has lead me to become a student for life. Therefore, I am constantly looking for ways to improve how I think/code while learning new technologies. <br/> On my free time, I love exercising, playing video games, and cheering on my favorite teams and athletes of professional sports leagues such as the NBA, FIFA, and the UFC.</AboutMeBody>
                     </Column>
                     <Column2>
                         <Title>Contact Me</Title>

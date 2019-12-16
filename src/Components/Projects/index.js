@@ -80,7 +80,7 @@ const Projects = () => {
                         <Links href="https://github.com/moonjason/fpsgame-callofduty-javascript" target="_blank">Github</Links>
                         <Links href="https://moonjason.github.io/fpsgame-callofduty-javascript/" target="_blank">Deployed App</Links>
                     </ProjectDesc>
-                    <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="525">
+                    <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="500">
                         <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/cod-js-ss.png" alt=""/>
                     </ProjectImg>
                 </ProjectItem>

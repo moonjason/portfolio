@@ -24,7 +24,7 @@ export const Title = styled.h1`
 
 export const AboutMeBody = styled.p`
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.1rem;
 `
 

@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <SkillsContainer id="skills">
       <Title>Skills</Title>
-      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-offset="50">
+      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-offset="35">
         <SkillsRow>
           <SkillsCol>
             <Icon src="./icons/js-logo.png" alt=""/>
