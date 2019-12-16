@@ -37,24 +37,26 @@ export const MeContainer = styled.div`
 
 export const Name = styled.h1`
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 3.7rem;
+    letter-spacing: 1px;
     color: whitesmoke;
+    text-shadow: #474747 3px 5px 2px;
 `
 
 export const Title = styled.h1`
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 2.5rem;
     color: whitesmoke;
+    text-shadow: #474747 3px 5px 2px;
 `
 
 export const TitleContainer = styled.div`
-    border: 1px solid black;
     display: inline-block;
-    background-color: gray;
     display: flex;
     flex-direction: column;
     width: 30rem;
     margin: 2rem auto 0 auto;
+
 `
