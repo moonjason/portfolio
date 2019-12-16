@@ -6,6 +6,8 @@ export const Title = styled.h1`
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 3.5rem;
+    color: #243665;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 `
 export const Icon = styled.img`
     height: 7rem;
@@ -36,4 +38,8 @@ export const SkillsCol = styled.div`
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
+`
+
+export const SkillsContainer = styled.div`
+    padding-top: 4.5rem;
 `

@@ -14,7 +14,9 @@ export const ProjectItem = styled.div`
 export const ProjectName = styled.h1`
     font-size: 2.5rem;
     padding-bottom: 1rem;
-    border-bottom: .2rem solid black;
+    border-bottom: .2rem solid #243665;
+    color: #243665;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 `
 
 export const ProjectsHeader = styled.h1`
@@ -23,7 +25,9 @@ export const ProjectsHeader = styled.h1`
     font-size: 3.5rem;
     margin-top: 5rem;
     text-align: center;
-    margin-bottom: 3.25rem;
+    margin-bottom: 5rem;
+    color: #243665;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 `
 
 export const ProjectImg = styled.div`
@@ -45,6 +49,9 @@ export const ProjectImg = styled.div`
 export const ProjectDesc = styled.div`
     margin-top: -3.75rem;  
     flex: 1;
+    background-color: #8BD8BD;
+    padding: 1rem 3rem;
+    border-radius: 4rem;
     @media (max-width: 850px) {
         margin: 0 !important;
         order: 2;
@@ -68,4 +75,7 @@ export const Links = styled.a`
 
 export const Technologies = styled.p`
     padding-bottom: 2rem;
+`
+
+export const ProjectsContainer = styled.div`
 `

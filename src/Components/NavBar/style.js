@@ -15,7 +15,11 @@ export const BarLink = styled.a`
     font-weight: 400;
     color: white; 
     font-size: 1.4rem;
-    padding: 3.5rem;
+    margin: 0 1.5rem;
+    &:hover {
+        color: #8BD8BD;
+        text-shadow: 0 0 8px #546693;
+    }
 `
 
 export const LinkContainer = styled.div`

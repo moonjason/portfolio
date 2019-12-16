@@ -5,7 +5,8 @@ import {
   SkillsRow,
   SkillsCol,
   List,
-  IconText
+  IconText,
+  SkillsContainer
 } from "./style";
 
 import AOS from 'aos';
@@ -15,9 +16,9 @@ AOS.init();
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <SkillsContainer id="skills">
       <Title>Skills</Title>
-      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="90">
+      <List data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-offset="50">
         <SkillsRow>
           <SkillsCol>
             <Icon src="./icons/js-logo.png" alt=""/>
@@ -77,7 +78,7 @@ const Skills = () => {
           </SkillsCol>
         </SkillsRow>
       </List>
-    </div>
+    </SkillsContainer>
   );
 };
 
