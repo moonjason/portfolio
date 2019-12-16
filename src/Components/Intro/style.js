@@ -44,3 +44,32 @@ export const Column2 = styled.div`
 export const Contact = styled.ul`
     list-style: none;
 `
+
+const Icon = {}
+
+Icon.In = styled.i`
+    color: #0077B5;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(160%);
+    }
+`
+
+Icon.Ghub = styled.i`
+    color: #24292e;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(200%);
+    }
+`
+
+Icon.Mail = styled.i`
+    color: #FF3434;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(150%);
+    }
+`
+
+
+export default Icon;

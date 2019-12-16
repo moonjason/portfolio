@@ -7,6 +7,7 @@ export const ProjectItem = styled.div`
     margin-bottom: 8.5rem;
     @media (max-width: 850px) {
         flex-direction: column;
+        margin-bottom: 2.5rem;
     }
 `
 
@@ -18,7 +19,7 @@ export const ProjectName = styled.h1`
 export const ProjectsHeader = styled.h1`
     margin-top: 5rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3.25rem;
 `
 
 export const ProjectImg = styled.div`
@@ -27,7 +28,7 @@ export const ProjectImg = styled.div`
     /* border: 1px solid black; */
     @media (max-width: 850px){
         width: 25rem;
-        margin: 0 0 0 0 !important;
+        margin: 0 0 1.75rem 0 !important;
         order: 1;
     }
 `

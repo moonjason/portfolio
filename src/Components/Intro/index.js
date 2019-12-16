@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Column, Column2 } from './style'
+import Icon, { Container, Row, Column, Column2 } from './style'
 
 const Intro = () => {
     return (
@@ -13,9 +13,9 @@ const Intro = () => {
                 <Column2>
                     <h2>Contact Me</h2>
                     <br/>
-                        <a href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin" style={{"fontSize": "2.5rem"}}></i></a>in/jasonmoon96
-                        <a href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square" style={{"fontSize": "2.5rem"}}></i></a>moonjason
-                        <a href="mailto: jasonmoonjm@gmail.com"><i className="fas fa-envelope-square" style={{"fontSize": "2.5rem"}}></i></a> jasonmoonjm@gmail.com
+                        <a href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer"><Icon.In className="fab fa-linkedin" style={{"fontSize": "2.5rem"}}></Icon.In></a>jasonmoon96
+                        <a href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer"><Icon.Ghub className="fab fa-github-square" style={{"fontSize": "2.5rem"}}></Icon.Ghub></a>moonjason
+                        <a href="mailto: jasonmoonjm@gmail.com"><Icon.Mail className="fas fa-envelope-square" style={{"fontSize": "2.5rem"}}></Icon.Mail></a> jasonmoonjm@gmail.com
                 </Column2>
             </Row>
         </Container>
