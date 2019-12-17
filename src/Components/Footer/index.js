@@ -1,14 +1,16 @@
 import React from 'react';
 
 import {
-    FooterContainer
+    FooterContainer,
+    LinkToTop,
+    LinkToRepo
 } from './style'
 
 const Footer = () => {
     return( 
         <FooterContainer>
-            <div>Link to GitHub Portfolio Repo</div>
-            <div>Back to the Top</div>
+            <LinkToRepo href="https://github.com/moonjason/portfolio" target="_blank">Link to Portfolio Repo on GitHub</LinkToRepo>
+            <LinkToTop href="#top">Back to the top</LinkToTop> 
         </FooterContainer>
     )
 }

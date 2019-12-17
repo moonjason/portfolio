@@ -11,7 +11,7 @@ import {
 const Header = () => {
     return (
         <Beginning>
-            <MeContainer>
+            <MeContainer id="top">
                 <Photo src="./gradpic.png" alt=""/> 
                 <TitleContainer>
                     <Name>Jason Moon</Name>
