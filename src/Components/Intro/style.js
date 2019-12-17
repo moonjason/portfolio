@@ -25,7 +25,8 @@ export const Title = styled.h1`
 export const AboutMeBody = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 2;
 `
 
 export const Row = styled.div`
@@ -71,7 +72,7 @@ export const LinkA = styled.a`
     color: #0031A9;
     filter: brightness(100%);
     &:hover {
-        filter: brightness(160%);
+        filter: brightness(180%);
     }
 `
 
@@ -82,6 +83,7 @@ Icon.In = styled.i`
     filter: brightness(100%);
     &:hover {
         filter: brightness(160%);
+        text-shadow: 0 0 8px #DADADA;
     }
 `
 
@@ -90,6 +92,7 @@ Icon.Ghub = styled.i`
     filter: brightness(100%);
     &:hover {
         filter: brightness(200%);
+        text-shadow: 0 0 8px #DADADA;
     }
 `
 
@@ -98,22 +101,16 @@ Icon.Mail = styled.i`
     filter: brightness(100%);
     &:hover {
         filter: brightness(150%);
-    }
-`
-
-Icon.Mail = styled.i`
-    color: #FF3434;
-    filter: brightness(100%);
-    &:hover {
-        filter: brightness(150%);
+        text-shadow: 0 0 8px #DADADA;
     }
 `
 
 Icon.Phone = styled.i`
-    color: #45FF7A;
+    color: #00BC25;
     filter: brightness(100%);
     &:hover {
-        filter: brightness(150%);
+        filter: brightness(120%);
+        text-shadow: 0 0 8px #DADADA;
     }
 `
 
