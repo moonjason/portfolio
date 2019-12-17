@@ -19,7 +19,7 @@ export const Beginning = styled.div`
     flex-direction: column;
     text-align: center;
     padding-bottom: 7.5rem;
-    background: linear-gradient(-45deg, #243665, #77BBD1, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #AC94FF, #77BBD1, #23a6d5, #23d5ab);
     animation: ${gradientBG} 15s ease infinite;
     background-size: 400% 400%;
 `

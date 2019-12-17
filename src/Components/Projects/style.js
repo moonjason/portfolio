@@ -80,9 +80,9 @@ export const Links = styled.a`
     font-size: 1.5rem;
     margin-right: 1.5rem;
     text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
-    color: ${props => props.ghub ? '#494949' : '#FF9E00'};
+    color: ${props => props.ghub ? '#494949' : 'antiquewhite'};
     &:hover {
-        text-shadow: ${props => props.ghub ? '0 0 8px #494949' :  '0 0 5px #FF9E00'};
+        text-shadow: ${props => props.ghub ? '0 0 8px #494949' :  '0 0 5px antiquewhite'};
     }
 `
 
