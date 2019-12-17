@@ -21,7 +21,21 @@ export const Title = styled.h1`
     color: #243665;
     text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 `
-
+export const Resume = styled.a`
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: antiquewhite; 
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(120%);
+    }
+`
 export const AboutMeBody = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 500;

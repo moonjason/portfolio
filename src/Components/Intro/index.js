@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon, { Container, Row, Column, Column2, Title, AboutMeBody, IntroBg, LinkA} from './style'
+import Icon, { Container, Row, Column, Column2, Title, AboutMeBody, IntroBg, LinkA, Resume} from './style'
 
 const Intro = () => {
     return (
@@ -32,6 +32,7 @@ const Intro = () => {
                             <LinkA href="tel:1-408-334-4094">+1 (408) 334-4094</LinkA>
                     </Column2>
                 </Row>
+                <Resume href="https://docs.google.com/document/d/1JUKV8INNshnN7zcbX3-JNoPpL8UUpIV8OXVA-xIU29A/edit?usp=sharing" target="_blank">Resume</Resume>
             </Container>
         </IntroBg>
     )
