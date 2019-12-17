@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon, { Container, Row, Column, Column2, Title, AboutMeBody, IntroBg} from './style'
+import Icon, { Container, Row, Column, Column2, Title, AboutMeBody, IntroBg, LinkA} from './style'
 
 const Intro = () => {
     return (
@@ -14,9 +14,15 @@ const Intro = () => {
                     <Column2>
                         <Title>Contact Me</Title>
                         <br/>
-                            <a href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer"><Icon.In className="fab fa-linkedin" style={{"fontSize": "2.5rem"}}></Icon.In></a>jasonmoon96
-                            <a href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer"><Icon.Ghub className="fab fa-github-square" style={{"fontSize": "2.5rem"}}></Icon.Ghub></a>moonjason
-                            <a href="mailto: jasonmoonjm@gmail.com"><Icon.Mail className="fas fa-envelope-square" style={{"fontSize": "2.5rem"}}></Icon.Mail></a> jasonmoonjm@gmail.com
+                            <a href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer">
+                            <Icon.In className="fab fa-linkedin" style={{"fontSize": "3rem"}}></Icon.In></a>
+                            <LinkA href="https://linkedin.com/in/jasonmoon96" target="_blank" rel="noopener noreferrer">jasonmoon96</LinkA>
+                            <a href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer"><Icon.Ghub className="fab fa-github-square" style={{"fontSize": "3rem"}}></Icon.Ghub></a>
+                            <LinkA href="https://github.com/moonjason" target="_blank" rel="noopener noreferrer">moonjason</LinkA>
+                            <a href="mailto: jasonmoonjm@gmail.com"><Icon.Mail className="fas fa-envelope-square" style={{"fontSize": "3rem"}}></Icon.Mail></a> 
+                            <LinkA href="mailto: jasonmoonjm@gmail.com">jasonmoonjm@gmail.com</LinkA>
+                            <a href="tel:1-408-334-4094"><Icon.Phone className="fas fa-phone-square" style={{"fontSize": "3rem"}}></Icon.Phone></a> 
+                            <LinkA href="tel:1-408-334-4094">+1 (408) 334-4094</LinkA>
                     </Column2>
                 </Row>
             </Container>

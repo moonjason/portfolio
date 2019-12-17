@@ -64,6 +64,17 @@ export const Contact = styled.ul`
     list-style: none;
 `
 
+export const LinkA = styled.a`
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0031A9;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(160%);
+    }
+`
+
 const Icon = {}
 
 Icon.In = styled.i`
@@ -90,5 +101,20 @@ Icon.Mail = styled.i`
     }
 `
 
+Icon.Mail = styled.i`
+    color: #FF3434;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(150%);
+    }
+`
+
+Icon.Phone = styled.i`
+    color: #45FF7A;
+    filter: brightness(100%);
+    &:hover {
+        filter: brightness(150%);
+    }
+`
 
 export default Icon;
