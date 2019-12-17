@@ -66,7 +66,7 @@ const Projects = () => {
                     </ProjectImg>
                 </ProjectItem>
                 <ProjectItem>
-                    <ProjectImg style={hasMarginRight} data-aos="fade-right" data-aos-delay="100" data-aos-offset="510">
+                    <ProjectImg style={hasMarginRight} data-aos="fade-right" data-aos-delay="100" data-aos-offset="520">
                         <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/cashcount-ss.png" alt=""/>
                     </ProjectImg>
                     <ProjectDesc>
@@ -91,7 +91,7 @@ const Projects = () => {
                         <Links href="https://github.com/moonjason/fpsgame-callofduty-javascript" target="_blank" ghub={true}>Github</Links>
                         <Links href="https://moonjason.github.io/fpsgame-callofduty-javascript/" target="_blank">Deployed App</Links>
                     </ProjectDesc>
-                    <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="490">
+                    <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="510">
                         <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/cod-js-ss.png" alt=""/>
                     </ProjectImg>
                 </ProjectItem>
