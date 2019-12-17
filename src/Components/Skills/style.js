@@ -41,5 +41,5 @@ export const SkillsCol = styled.div`
 `
 
 export const SkillsContainer = styled.div`
-    padding-top: 4.5rem;
+    padding-top: 100px;
 `

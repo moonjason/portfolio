@@ -22,7 +22,8 @@ const style = {
     'height': '100%',
     "maxWidth": "120rem",
     "margin": "0 auto",
-    'position': 'relative'
+    'position': 'relative',
+    'paddingTop': '31px'
 }
 
 const hasMarginRight = {'marginRight': '3rem'}

@@ -3,8 +3,8 @@ import Icon, { Container, Row, Column, Column2, Title, AboutMeBody, IntroBg} fro
 
 const Intro = () => {
     return (
-        <IntroBg>
-            <Container id="intro">
+        <IntroBg id="intro">
+            <Container>
                 <Row>
                     <Column>
                         <Title>About Me</Title>

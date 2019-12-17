@@ -8,6 +8,9 @@ export const Bar = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    position: ${props => props.scrollPos ? 'fixed' : ''};
+    top: ${props => props.scrollPos ? 0 : ''};
 `
 
 export const BarLink = styled.a`
