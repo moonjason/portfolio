@@ -5,4 +5,6 @@ If you didn't come from my site, you can view it here:
 or 
 [moonjason.com](https://moonjason.com)
 
-### Thank you for taking the time to view my portfolio ! 
+### Thank you for taking the time to view my portfolio!
+
+#### Technologies Used : React, AOS Scroll, Styled-Components
