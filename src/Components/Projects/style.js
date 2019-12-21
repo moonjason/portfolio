@@ -44,6 +44,7 @@ export const ProjectImg = styled.div`
         border: none;
         box-shadow: none;
     }
+    overflow: hidden;
 `
 
 export const ProjectDesc = styled.div`
@@ -91,4 +92,5 @@ export const Technologies = styled.p`
 `
 
 export const ProjectsContainer = styled.div`
+    overflow: hidden;
 `

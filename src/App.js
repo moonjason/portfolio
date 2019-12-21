@@ -8,12 +8,12 @@ import Footer from './Components/Footer';
 import NavBar from './Components/NavBar';
 function App() {
   return (
-    <div id="page">
+    <div id="page" style={{"overflowX": "hidden"}}>
       <Header />
       <NavBar />
       <Intro/>
       <Skills />
-      <Projects />
+      <Projects/>
       <Footer/>
     </div>
   );
