@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Bar = styled.div`
     /* box-shadow: 0px -3.5px 20px 0px #000000; */
-    width: 100%;
+    width: 100vw;
     height: 3.5rem;
     background-color: #243665;
     display: flex;
@@ -11,6 +11,10 @@ export const Bar = styled.div`
     z-index: 1;
     position: ${props => props.scrollPos ? 'fixed' : ''};
     top: ${props => props.scrollPos ? 0 : ''};
+    overflow: hidden;
+    @media (max-width: 850px){
+        position: ''
+    }
 `
 
 export const BarLink = styled.a`
@@ -22,6 +26,9 @@ export const BarLink = styled.a`
     &:hover {
         color: #8BD8BD;
         text-shadow: 0 0 8px #546693;
+    }
+    @media (max-width: 850px){
+        font-size: 1rem;
     }
 `
 

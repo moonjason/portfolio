@@ -12,6 +12,10 @@ export const Title = styled.h1`
 export const Icon = styled.img`
     height: 7rem;
     padding: 1% 2%;
+    @media (max-width: 850px){
+        height: 3rem;
+        width: 3rem;
+    }
 `
 export const IconText = styled.p`
     padding-top: 1rem;
@@ -29,7 +33,7 @@ export const SkillsRow = styled.div`
     text-align: center;
     justify-content: center;
     @media (max-width: 850px){
-        padding: 0
+        padding: 0;
     }
 `
 
@@ -42,4 +46,11 @@ export const SkillsCol = styled.div`
 
 export const SkillsContainer = styled.div`
     padding-top: 100px;
+`
+
+export const OtherIcon = styled.i`
+    @media (max-width: 850px){
+        font-size: 3rem !important;
+        margin-top: .5rem;
+    }
 `

@@ -6,7 +6,8 @@ import {
   SkillsCol,
   List,
   IconText,
-  SkillsContainer
+  SkillsContainer,
+  OtherIcon
 } from "./style";
 
 import AOS from 'aos';
@@ -37,7 +38,7 @@ const Skills = () => {
             <IconText>Node</IconText>
           </SkillsCol>
           <SkillsCol style={{"marginLeft": '1rem', 'padding': '1% 2%'}}>
-            <i style={{'fontSize': '7rem'}} className="devicon-express-original-wordmark colored"></i>
+            <OtherIcon style={{'fontSize': '7rem'}} className="devicon-express-original-wordmark colored"></OtherIcon >
             <IconText>Express</IconText>
           </SkillsCol>
           <SkillsCol>
@@ -65,7 +66,7 @@ const Skills = () => {
             <IconText>Flask</IconText>
           </SkillsCol>
           <SkillsCol style={{ "marginLeft": '1rem', 'padding': '1% 2%'}}>
-            <i style={{'fontSize': '7rem'}} className="devicon-bootstrap-plain colored"></i>
+            <OtherIcon style={{'fontSize': '7rem'}} className="devicon-bootstrap-plain colored"></OtherIcon>
             <IconText>Bootstrap</IconText>
           </SkillsCol>
           <SkillsCol>
