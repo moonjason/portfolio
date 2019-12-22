@@ -44,9 +44,15 @@ export const Name = styled.h1`
     letter-spacing: 1px;
     color: whitesmoke;
     text-shadow: #474747 3px 5px 2px;
-    @media (max-width: 850px){
+    @media (max-width: 414px){
         font-size: 2rem;
-        margin-right: 5.5rem;
+        margin-right: 4.3rem;
+    }
+    @media (max-width: 375px){
+        margin-right: 5.7rem;
+    }
+    @media (max-width: 360px){
+        margin-right: 5.9rem;
     }
 `
 
@@ -56,9 +62,15 @@ export const Title = styled.h1`
     font-size: 2.5rem;
     color: whitesmoke;
     text-shadow: #474747 3px 5px 2px;
-    @media (max-width: 850px){
-        font-size: 1.75rem;
-        margin-right: 5.5rem;
+    @media (max-width: 414px){
+        font-size: 2rem;
+        margin-right: 4.4rem;
+    }
+    @media (max-width: 375px){
+        margin-right: 6rem;
+    }
+    @media (max-width: 360px){
+        margin-right: 7.2rem;
     }
 `
 
