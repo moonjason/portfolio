@@ -26,7 +26,7 @@ const Intro = () => {
                                 <Icon.Mail className="fas fa-envelope-square" style={{"fontSize": "3rem"}} alt="Email:"></Icon.Mail>
                             </a> 
                             <LinkA href="mailto: jasonmoonjm@gmail.com">jasonmoonjm@gmail.com</LinkA>
-                            <a href="tel:1-408-334-4094">
+                            <a href="tel:1-213-793-8028">
                                 <Icon.Phone className="fas fa-phone-square" style={{"fontSize": "3rem"}} alt="Phone:"></Icon.Phone>
                             </a> 
                             <LinkA href="tel:1-213-793-8028">+1 ‪(213) 793-8028‬</LinkA>

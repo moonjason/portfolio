@@ -9,7 +9,7 @@ import NavBar from './Components/NavBar';
 function App() {
   return (
     <div id="page" style={{"overflowX": "hidden"}}>
-      <Header />
+    <Header />
       <NavBar />
       <Intro/>
       <Skills />
