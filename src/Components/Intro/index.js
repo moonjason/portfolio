@@ -29,7 +29,7 @@ const Intro = () => {
                             <a href="tel:1-408-334-4094">
                                 <Icon.Phone className="fas fa-phone-square" style={{"fontSize": "3rem"}} alt="Phone:"></Icon.Phone>
                             </a> 
-                            <LinkA href="tel:1-408-334-4094">+1 (408) 334-4094</LinkA>
+                            <LinkA href="tel:1-213-793-8028">+1 ‪(213) 793-8028‬</LinkA>
                     </Column2>
                 </Row>
                 <Resume href="https://docs.google.com/document/d/1JUKV8INNshnN7zcbX3-JNoPpL8UUpIV8OXVA-xIU29A/edit?usp=sharing" target="_blank">Resume</Resume>
