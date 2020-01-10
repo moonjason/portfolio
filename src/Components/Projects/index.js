@@ -32,7 +32,21 @@ const Projects = () => {
     return (
         <ProjectsContainer>
             <div style={style} id="projects">
-                <ProjectsHeader>Projects</ProjectsHeader> 
+                <ProjectsHeader>Projects</ProjectsHeader>
+                <ProjectItem>
+                    <ProjectDesc style={hasMarginRight}>
+                        <ProjectName>LA Food Policy Council Dashboard</ProjectName>
+                        <ProjectBody>
+                            This project was my team's submission for General Assembly's LA Food Policy Council Hack-a-thon. Our team of UX designers, software developers, and a data scientist collaborated to debug and add features to website in progress. We created and presented working software that was restyled for visual appeal and offered an efficient way for LAFPC members to input and edit data. I worked with the data scientist to upgrade the pre-existing graph by adding converting it to a more digestable bar graph with customizations on what data can be viewed.
+                        </ProjectBody>
+                        <TechnologiesUsed>Technologies Used:</TechnologiesUsed>
+                        <Technologies>Node, Express, React, MongoDB, ApexCharts</Technologies>
+                        <Links href="https://github.com/moonjason/LAFPC-Hackathon" target="_blank" ghub={true}>Github</Links>
+                    </ProjectDesc>
+                    <ProjectImg data-aos="fade-left" data-aos-delay="100" data-aos-offset="510">
+                        <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/lafpc-graph-ss.png" alt=""/>
+                    </ProjectImg>
+                </ProjectItem> 
                 <ProjectItem>
                     <ProjectImg style={hasMarginRight} data-aos="fade-right" data-aos-delay="100" data-aos-offset="510">
                         <img style={{'width': '100%', 'imageOrientation': 'from-image'}} src="./images/gotnext-ss.png" alt=""/>
